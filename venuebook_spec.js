@@ -23,8 +23,7 @@ describe('Test of VenueBook website', function() {
     context('Venue Profile Page', function(){
         beforeEach(function(){
             // Before any test open "Venue Profile Page"
-            //cy.visit('https://venuebook.com/venue/651/underground-coktail-bar')
-            cy.visit('https://venuebook.com/venue/1520/barrel-room/')
+            cy.visit('https://venuebook.com/venue/651/underground-coktail-bar')
         })
 
         it('clicks the link "View Photos"', function() {
